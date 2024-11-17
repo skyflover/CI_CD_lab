@@ -1,1 +1,10 @@
+name: PZ2
 
+on: [push,pull_request]
+
+jobs:
+    build:
+        runs-on: windows-latest
+        steps:
+            - name: Build
+              run: env
