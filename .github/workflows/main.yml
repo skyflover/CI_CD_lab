@@ -13,6 +13,6 @@ jobs:
               uses: microsoft/setup-msbuild@v2
 
             - name: Build solution
-              run: msbuild CI_CD.sln /p:Configuration=Release
+              run: msbuild CI_CD.sln  /p:Configuration=Release
 
             - run: ./x64/Release/Tests.exe
