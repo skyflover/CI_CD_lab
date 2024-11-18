@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "../lib.cpp"
+#include "../CI_CD/lib.cpp"
 
 TEST(CalculatorTests, Add) {
 	EXPECT_EQ(calc::op_add(2, 3), 5);
