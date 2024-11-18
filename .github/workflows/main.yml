@@ -8,3 +8,11 @@ jobs:
         steps:
             - name: Build
               run: env
+
+            - name: setup-msbuild
+              uses: microsoft/setup-msbuild@v2
+
+            - name: Build solution
+              run: msbuild CI_CD.sln -target:CI_CD,Tests /p:Configuration=Release
+
+            - run: ./x64/Release/Tests.exe

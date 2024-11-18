@@ -1,1 +1,5 @@
 .vs/
+Tests/x64/
+packages/
+x64/
+CI_CD/x64/
