@@ -6,6 +6,12 @@ namespace calc
 		return x & y;
 	}
 
+	//new function
+	int  op_pow(int x, int y)
+	{
+		return x^y;
+	}
+
 	int  op_or(int x, int y) {
 		return x | y;
 	}
