@@ -3,6 +3,9 @@
 namespace calc
 { 
 	int  op_and(int x, int y);
+
+	//new function
+	int  op_pow(int x, int y);
 	
 	int  op_or(int x, int y);
 	
