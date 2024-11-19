@@ -1,0 +1,5 @@
+﻿  lib.cpp
+  main.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\Users\valer\source\repos\CI_CD_lab\x64\Debug\CI_CD.exe при последней инкрементной компоновке; выполняется полная компоновка
+  CI_CD.vcxproj -> C:\Users\valer\source\repos\CI_CD_lab\x64\Debug\CI_CD.exe
