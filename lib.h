@@ -1,5 +1,8 @@
 #pragma once
 
+
+//! @file lib.hpp Main lib file
+
 namespace calc
 {	
 	//! \brief Logical AND func.
